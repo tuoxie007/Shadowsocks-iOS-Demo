@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "SSProxyProtocol.h"
+#import "ShadowsocksClient.h"
+
+static ShadowsocksClient *proxy;
 
 @interface AppDelegate ()
 
@@ -16,6 +20,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    proxy = [[ShadowsocksClient alloc] initWithHost:<@"remote server host">
+                                               port:<remote server port>
+                                           password:<@"password">
+                                             method:<@"method">];
+    [proxy startWithLocalPort:1080];
+    [SSProxyProtocol setLocalPort:1080];
+    [NSURLProtocol registerClass:[SSProxyProtocol class]];
     // Override point for customization after application launch.
     return YES;
 }

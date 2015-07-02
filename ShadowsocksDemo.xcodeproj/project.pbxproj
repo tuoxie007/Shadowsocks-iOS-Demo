@@ -13,18 +13,15 @@
 		9686B5701B45717400234D69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9686B56E1B45717400234D69 /* Main.storyboard */; };
 		9686B5721B45717400234D69 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9686B5711B45717400234D69 /* Images.xcassets */; };
 		9686B5751B45717400234D69 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9686B5731B45717400234D69 /* LaunchScreen.xib */; };
-		9686B5811B45717400234D69 /* ShadowsocksDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9686B5801B45717400234D69 /* ShadowsocksDemoTests.m */; };
+		9686B5DC1B4571BA00234D69 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 9686B5B61B4571BA00234D69 /* GCDAsyncSocket.m */; };
+		9686B5DD1B4571BA00234D69 /* encrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 9686B5B71B4571BA00234D69 /* encrypt.c */; };
+		9686B5DE1B4571BA00234D69 /* HSUServerList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9686B5BA1B4571BA00234D69 /* HSUServerList.m */; };
+		9686B5DF1B4571BA00234D69 /* interpose.c in Sources */ = {isa = PBXBuildFile; fileRef = 9686B5BB1B4571BA00234D69 /* interpose.c */; };
+		9686B5E41B4571BA00234D69 /* ev.c in Sources */ = {isa = PBXBuildFile; fileRef = 9686B5C41B4571BA00234D69 /* ev.c */; };
+		9686B5F11B4571BA00234D69 /* openssl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9686B5D51B4571BA00234D69 /* openssl.framework */; };
+		9686B5F21B4571BA00234D69 /* ShadowsocksClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9686B5D81B4571BA00234D69 /* ShadowsocksClient.m */; };
+		9686B5F31B4571BA00234D69 /* SSProxyProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 9686B5DB1B4571BA00234D69 /* SSProxyProtocol.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		9686B57B1B45717400234D69 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9686B5591B45717400234D69 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9686B5601B45717400234D69;
-			remoteInfo = ShadowsocksDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		9686B5611B45717400234D69 /* ShadowsocksDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShadowsocksDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,9 +34,22 @@
 		9686B56F1B45717400234D69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9686B5711B45717400234D69 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9686B5741B45717400234D69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		9686B57A1B45717400234D69 /* ShadowsocksDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShadowsocksDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9686B57F1B45717400234D69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9686B5801B45717400234D69 /* ShadowsocksDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShadowsocksDemoTests.m; sourceTree = "<group>"; };
+		9686B5B51B4571BA00234D69 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		9686B5B61B4571BA00234D69 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		9686B5B71B4571BA00234D69 /* encrypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = encrypt.c; sourceTree = "<group>"; };
+		9686B5B81B4571BA00234D69 /* encrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encrypt.h; sourceTree = "<group>"; };
+		9686B5B91B4571BA00234D69 /* HSUServerList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSUServerList.h; sourceTree = "<group>"; };
+		9686B5BA1B4571BA00234D69 /* HSUServerList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSUServerList.m; sourceTree = "<group>"; };
+		9686B5BB1B4571BA00234D69 /* interpose.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = interpose.c; sourceTree = "<group>"; };
+		9686B5BC1B4571BA00234D69 /* interpose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interpose.h; sourceTree = "<group>"; };
+		9686B5C41B4571BA00234D69 /* ev.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ev.c; sourceTree = "<group>"; };
+		9686B5D51B4571BA00234D69 /* openssl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = openssl.framework; sourceTree = "<group>"; };
+		9686B5D61B4571BA00234D69 /* shadowsocks-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "shadowsocks-Prefix.pch"; sourceTree = "<group>"; };
+		9686B5D71B4571BA00234D69 /* ShadowsocksClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowsocksClient.h; sourceTree = "<group>"; };
+		9686B5D81B4571BA00234D69 /* ShadowsocksClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowsocksClient.m; sourceTree = "<group>"; };
+		9686B5D91B4571BA00234D69 /* socks5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = socks5.h; sourceTree = "<group>"; };
+		9686B5DA1B4571BA00234D69 /* SSProxyProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSProxyProtocol.h; sourceTree = "<group>"; };
+		9686B5DB1B4571BA00234D69 /* SSProxyProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSProxyProtocol.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,13 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9686B5771B45717400234D69 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				9686B5F11B4571BA00234D69 /* openssl.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,8 +67,8 @@
 		9686B5581B45717400234D69 = {
 			isa = PBXGroup;
 			children = (
+				9686B5B31B4571BA00234D69 /* shadowsocks */,
 				9686B5631B45717400234D69 /* ShadowsocksDemo */,
-				9686B57D1B45717400234D69 /* ShadowsocksDemoTests */,
 				9686B5621B45717400234D69 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				9686B5611B45717400234D69 /* ShadowsocksDemo.app */,
-				9686B57A1B45717400234D69 /* ShadowsocksDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,21 +105,43 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9686B57D1B45717400234D69 /* ShadowsocksDemoTests */ = {
+		9686B5B31B4571BA00234D69 /* shadowsocks */ = {
 			isa = PBXGroup;
 			children = (
-				9686B5801B45717400234D69 /* ShadowsocksDemoTests.m */,
-				9686B57E1B45717400234D69 /* Supporting Files */,
+				9686B5B41B4571BA00234D69 /* CocoaAsyncSocket */,
+				9686B5B71B4571BA00234D69 /* encrypt.c */,
+				9686B5B81B4571BA00234D69 /* encrypt.h */,
+				9686B5B91B4571BA00234D69 /* HSUServerList.h */,
+				9686B5BA1B4571BA00234D69 /* HSUServerList.m */,
+				9686B5BB1B4571BA00234D69 /* interpose.c */,
+				9686B5BC1B4571BA00234D69 /* interpose.h */,
+				9686B5BD1B4571BA00234D69 /* libev */,
+				9686B5D51B4571BA00234D69 /* openssl.framework */,
+				9686B5D61B4571BA00234D69 /* shadowsocks-Prefix.pch */,
+				9686B5D71B4571BA00234D69 /* ShadowsocksClient.h */,
+				9686B5D81B4571BA00234D69 /* ShadowsocksClient.m */,
+				9686B5D91B4571BA00234D69 /* socks5.h */,
+				9686B5DA1B4571BA00234D69 /* SSProxyProtocol.h */,
+				9686B5DB1B4571BA00234D69 /* SSProxyProtocol.m */,
 			);
-			path = ShadowsocksDemoTests;
+			path = shadowsocks;
 			sourceTree = "<group>";
 		};
-		9686B57E1B45717400234D69 /* Supporting Files */ = {
+		9686B5B41B4571BA00234D69 /* CocoaAsyncSocket */ = {
 			isa = PBXGroup;
 			children = (
-				9686B57F1B45717400234D69 /* Info.plist */,
+				9686B5B51B4571BA00234D69 /* GCDAsyncSocket.h */,
+				9686B5B61B4571BA00234D69 /* GCDAsyncSocket.m */,
 			);
-			name = "Supporting Files";
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		9686B5BD1B4571BA00234D69 /* libev */ = {
+			isa = PBXGroup;
+			children = (
+				9686B5C41B4571BA00234D69 /* ev.c */,
+			);
+			path = libev;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,24 +164,6 @@
 			productReference = 9686B5611B45717400234D69 /* ShadowsocksDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9686B5791B45717400234D69 /* ShadowsocksDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9686B5871B45717400234D69 /* Build configuration list for PBXNativeTarget "ShadowsocksDemoTests" */;
-			buildPhases = (
-				9686B5761B45717400234D69 /* Sources */,
-				9686B5771B45717400234D69 /* Frameworks */,
-				9686B5781B45717400234D69 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9686B57C1B45717400234D69 /* PBXTargetDependency */,
-			);
-			name = ShadowsocksDemoTests;
-			productName = ShadowsocksDemoTests;
-			productReference = 9686B57A1B45717400234D69 /* ShadowsocksDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,10 +175,6 @@
 				TargetAttributes = {
 					9686B5601B45717400234D69 = {
 						CreatedOnToolsVersion = 6.3.2;
-					};
-					9686B5791B45717400234D69 = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = 9686B5601B45717400234D69;
 					};
 				};
 			};
@@ -189,7 +192,6 @@
 			projectRoot = "";
 			targets = (
 				9686B5601B45717400234D69 /* ShadowsocksDemo */,
-				9686B5791B45717400234D69 /* ShadowsocksDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -205,13 +207,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9686B5781B45717400234D69 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -219,29 +214,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9686B5E41B4571BA00234D69 /* ev.c in Sources */,
+				9686B5DC1B4571BA00234D69 /* GCDAsyncSocket.m in Sources */,
+				9686B5DF1B4571BA00234D69 /* interpose.c in Sources */,
+				9686B5F31B4571BA00234D69 /* SSProxyProtocol.m in Sources */,
+				9686B5F21B4571BA00234D69 /* ShadowsocksClient.m in Sources */,
+				9686B5DE1B4571BA00234D69 /* HSUServerList.m in Sources */,
 				9686B56D1B45717400234D69 /* ViewController.m in Sources */,
 				9686B56A1B45717400234D69 /* AppDelegate.m in Sources */,
+				9686B5DD1B4571BA00234D69 /* encrypt.c in Sources */,
 				9686B5671B45717400234D69 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9686B5761B45717400234D69 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9686B5811B45717400234D69 /* ShadowsocksDemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9686B57C1B45717400234D69 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9686B5601B45717400234D69 /* ShadowsocksDemo */;
-			targetProxy = 9686B57B1B45717400234D69 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9686B56E1B45717400234D69 /* Main.storyboard */ = {
@@ -349,6 +335,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/shadowsocks",
+				);
 				INFOPLIST_FILE = ShadowsocksDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -359,43 +349,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/shadowsocks",
+				);
 				INFOPLIST_FILE = ShadowsocksDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		9686B5881B45717400234D69 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ShadowsocksDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShadowsocksDemo.app/ShadowsocksDemo";
-			};
-			name = Debug;
-		};
-		9686B5891B45717400234D69 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ShadowsocksDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShadowsocksDemo.app/ShadowsocksDemo";
 			};
 			name = Release;
 		};
@@ -416,14 +376,6 @@
 			buildConfigurations = (
 				9686B5851B45717400234D69 /* Debug */,
 				9686B5861B45717400234D69 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		9686B5871B45717400234D69 /* Build configuration list for PBXNativeTarget "ShadowsocksDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9686B5881B45717400234D69 /* Debug */,
-				9686B5891B45717400234D69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

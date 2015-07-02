@@ -10,18 +10,26 @@
 
 @interface ViewController ()
 
+@property (strong, nonatomic) UIWebView *webview;
+
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.webview = [[UIWebView alloc] init];
+    [self.view addSubview:self.webview];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    self.webview.frame = self.view.bounds;
+    [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(start) userInfo:nil repeats:NO];
+}
+
+- (void)start {
+    [self.webview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://twitter.com"]]];
 }
 
 @end
