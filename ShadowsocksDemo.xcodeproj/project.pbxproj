@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9686B5671B45717400234D69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9686B5661B45717400234D69 /* main.m */; };
+		9686B56A1B45717400234D69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9686B5691B45717400234D69 /* AppDelegate.m */; };
+		9686B56D1B45717400234D69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9686B56C1B45717400234D69 /* ViewController.m */; };
+		9686B5701B45717400234D69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9686B56E1B45717400234D69 /* Main.storyboard */; };
+		9686B5721B45717400234D69 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9686B5711B45717400234D69 /* Images.xcassets */; };
+		9686B5751B45717400234D69 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9686B5731B45717400234D69 /* LaunchScreen.xib */; };
+		9686B5811B45717400234D69 /* ShadowsocksDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9686B5801B45717400234D69 /* ShadowsocksDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9686B57B1B45717400234D69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9686B5591B45717400234D69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9686B5601B45717400234D69;
+			remoteInfo = ShadowsocksDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9686B5611B45717400234D69 /* ShadowsocksDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShadowsocksDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9686B5651B45717400234D69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9686B5661B45717400234D69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9686B5681B45717400234D69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9686B5691B45717400234D69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9686B56B1B45717400234D69 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9686B56C1B45717400234D69 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9686B56F1B45717400234D69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9686B5711B45717400234D69 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9686B5741B45717400234D69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9686B57A1B45717400234D69 /* ShadowsocksDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShadowsocksDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9686B57F1B45717400234D69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9686B5801B45717400234D69 /* ShadowsocksDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShadowsocksDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9686B55E1B45717400234D69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9686B5771B45717400234D69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9686B5581B45717400234D69 = {
+			isa = PBXGroup;
+			children = (
+				9686B5631B45717400234D69 /* ShadowsocksDemo */,
+				9686B57D1B45717400234D69 /* ShadowsocksDemoTests */,
+				9686B5621B45717400234D69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9686B5621B45717400234D69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9686B5611B45717400234D69 /* ShadowsocksDemo.app */,
+				9686B57A1B45717400234D69 /* ShadowsocksDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9686B5631B45717400234D69 /* ShadowsocksDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9686B5681B45717400234D69 /* AppDelegate.h */,
+				9686B5691B45717400234D69 /* AppDelegate.m */,
+				9686B56B1B45717400234D69 /* ViewController.h */,
+				9686B56C1B45717400234D69 /* ViewController.m */,
+				9686B56E1B45717400234D69 /* Main.storyboard */,
+				9686B5711B45717400234D69 /* Images.xcassets */,
+				9686B5731B45717400234D69 /* LaunchScreen.xib */,
+				9686B5641B45717400234D69 /* Supporting Files */,
+			);
+			path = ShadowsocksDemo;
+			sourceTree = "<group>";
+		};
+		9686B5641B45717400234D69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9686B5651B45717400234D69 /* Info.plist */,
+				9686B5661B45717400234D69 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9686B57D1B45717400234D69 /* ShadowsocksDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9686B5801B45717400234D69 /* ShadowsocksDemoTests.m */,
+				9686B57E1B45717400234D69 /* Supporting Files */,
+			);
+			path = ShadowsocksDemoTests;
+			sourceTree = "<group>";
+		};
+		9686B57E1B45717400234D69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9686B57F1B45717400234D69 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9686B5601B45717400234D69 /* ShadowsocksDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9686B5841B45717400234D69 /* Build configuration list for PBXNativeTarget "ShadowsocksDemo" */;
+			buildPhases = (
+				9686B55D1B45717400234D69 /* Sources */,
+				9686B55E1B45717400234D69 /* Frameworks */,
+				9686B55F1B45717400234D69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShadowsocksDemo;
+			productName = ShadowsocksDemo;
+			productReference = 9686B5611B45717400234D69 /* ShadowsocksDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9686B5791B45717400234D69 /* ShadowsocksDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9686B5871B45717400234D69 /* Build configuration list for PBXNativeTarget "ShadowsocksDemoTests" */;
+			buildPhases = (
+				9686B5761B45717400234D69 /* Sources */,
+				9686B5771B45717400234D69 /* Frameworks */,
+				9686B5781B45717400234D69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9686B57C1B45717400234D69 /* PBXTargetDependency */,
+			);
+			name = ShadowsocksDemoTests;
+			productName = ShadowsocksDemoTests;
+			productReference = 9686B57A1B45717400234D69 /* ShadowsocksDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9686B5591B45717400234D69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Jason Hsu";
+				TargetAttributes = {
+					9686B5601B45717400234D69 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					9686B5791B45717400234D69 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 9686B5601B45717400234D69;
+					};
+				};
+			};
+			buildConfigurationList = 9686B55C1B45717400234D69 /* Build configuration list for PBXProject "ShadowsocksDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9686B5581B45717400234D69;
+			productRefGroup = 9686B5621B45717400234D69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9686B5601B45717400234D69 /* ShadowsocksDemo */,
+				9686B5791B45717400234D69 /* ShadowsocksDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9686B55F1B45717400234D69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9686B5701B45717400234D69 /* Main.storyboard in Resources */,
+				9686B5751B45717400234D69 /* LaunchScreen.xib in Resources */,
+				9686B5721B45717400234D69 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9686B5781B45717400234D69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9686B55D1B45717400234D69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9686B56D1B45717400234D69 /* ViewController.m in Sources */,
+				9686B56A1B45717400234D69 /* AppDelegate.m in Sources */,
+				9686B5671B45717400234D69 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9686B5761B45717400234D69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9686B5811B45717400234D69 /* ShadowsocksDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9686B57C1B45717400234D69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9686B5601B45717400234D69 /* ShadowsocksDemo */;
+			targetProxy = 9686B57B1B45717400234D69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9686B56E1B45717400234D69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9686B56F1B45717400234D69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9686B5731B45717400234D69 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9686B5741B45717400234D69 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9686B5821B45717400234D69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9686B5831B45717400234D69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9686B5851B45717400234D69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShadowsocksDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9686B5861B45717400234D69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShadowsocksDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9686B5881B45717400234D69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShadowsocksDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShadowsocksDemo.app/ShadowsocksDemo";
+			};
+			name = Debug;
+		};
+		9686B5891B45717400234D69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShadowsocksDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShadowsocksDemo.app/ShadowsocksDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9686B55C1B45717400234D69 /* Build configuration list for PBXProject "ShadowsocksDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9686B5821B45717400234D69 /* Debug */,
+				9686B5831B45717400234D69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9686B5841B45717400234D69 /* Build configuration list for PBXNativeTarget "ShadowsocksDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9686B5851B45717400234D69 /* Debug */,
+				9686B5861B45717400234D69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9686B5871B45717400234D69 /* Build configuration list for PBXNativeTarget "ShadowsocksDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9686B5881B45717400234D69 /* Debug */,
+				9686B5891B45717400234D69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9686B5591B45717400234D69 /* Project object */;
+}
