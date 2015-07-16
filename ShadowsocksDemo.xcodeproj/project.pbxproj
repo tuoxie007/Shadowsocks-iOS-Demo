@@ -16,8 +16,6 @@
 		9686B5DC1B4571BA00234D69 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 9686B5B61B4571BA00234D69 /* GCDAsyncSocket.m */; };
 		9686B5DD1B4571BA00234D69 /* encrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 9686B5B71B4571BA00234D69 /* encrypt.c */; };
 		9686B5DE1B4571BA00234D69 /* HSUServerList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9686B5BA1B4571BA00234D69 /* HSUServerList.m */; };
-		9686B5DF1B4571BA00234D69 /* interpose.c in Sources */ = {isa = PBXBuildFile; fileRef = 9686B5BB1B4571BA00234D69 /* interpose.c */; };
-		9686B5E41B4571BA00234D69 /* ev.c in Sources */ = {isa = PBXBuildFile; fileRef = 9686B5C41B4571BA00234D69 /* ev.c */; };
 		9686B5F11B4571BA00234D69 /* openssl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9686B5D51B4571BA00234D69 /* openssl.framework */; };
 		9686B5F21B4571BA00234D69 /* ShadowsocksClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9686B5D81B4571BA00234D69 /* ShadowsocksClient.m */; };
 		9686B5F31B4571BA00234D69 /* SSProxyProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 9686B5DB1B4571BA00234D69 /* SSProxyProtocol.m */; };
@@ -40,9 +38,6 @@
 		9686B5B81B4571BA00234D69 /* encrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encrypt.h; sourceTree = "<group>"; };
 		9686B5B91B4571BA00234D69 /* HSUServerList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSUServerList.h; sourceTree = "<group>"; };
 		9686B5BA1B4571BA00234D69 /* HSUServerList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSUServerList.m; sourceTree = "<group>"; };
-		9686B5BB1B4571BA00234D69 /* interpose.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = interpose.c; sourceTree = "<group>"; };
-		9686B5BC1B4571BA00234D69 /* interpose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interpose.h; sourceTree = "<group>"; };
-		9686B5C41B4571BA00234D69 /* ev.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ev.c; sourceTree = "<group>"; };
 		9686B5D51B4571BA00234D69 /* openssl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = openssl.framework; sourceTree = "<group>"; };
 		9686B5D61B4571BA00234D69 /* shadowsocks-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "shadowsocks-Prefix.pch"; sourceTree = "<group>"; };
 		9686B5D71B4571BA00234D69 /* ShadowsocksClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowsocksClient.h; sourceTree = "<group>"; };
@@ -113,9 +108,6 @@
 				9686B5B81B4571BA00234D69 /* encrypt.h */,
 				9686B5B91B4571BA00234D69 /* HSUServerList.h */,
 				9686B5BA1B4571BA00234D69 /* HSUServerList.m */,
-				9686B5BB1B4571BA00234D69 /* interpose.c */,
-				9686B5BC1B4571BA00234D69 /* interpose.h */,
-				9686B5BD1B4571BA00234D69 /* libev */,
 				9686B5D51B4571BA00234D69 /* openssl.framework */,
 				9686B5D61B4571BA00234D69 /* shadowsocks-Prefix.pch */,
 				9686B5D71B4571BA00234D69 /* ShadowsocksClient.h */,
@@ -134,14 +126,6 @@
 				9686B5B61B4571BA00234D69 /* GCDAsyncSocket.m */,
 			);
 			path = CocoaAsyncSocket;
-			sourceTree = "<group>";
-		};
-		9686B5BD1B4571BA00234D69 /* libev */ = {
-			isa = PBXGroup;
-			children = (
-				9686B5C41B4571BA00234D69 /* ev.c */,
-			);
-			path = libev;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,9 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9686B5E41B4571BA00234D69 /* ev.c in Sources */,
 				9686B5DC1B4571BA00234D69 /* GCDAsyncSocket.m in Sources */,
-				9686B5DF1B4571BA00234D69 /* interpose.c in Sources */,
 				9686B5F31B4571BA00234D69 /* SSProxyProtocol.m in Sources */,
 				9686B5F21B4571BA00234D69 /* ShadowsocksClient.m in Sources */,
 				9686B5DE1B4571BA00234D69 /* HSUServerList.m in Sources */,
@@ -378,6 +360,7 @@
 				9686B5861B45717400234D69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
